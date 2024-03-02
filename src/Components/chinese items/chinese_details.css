@@ -1,0 +1,34 @@
+.productdec {
+    width: 100%;
+    /* display: flex; */
+    border: 1px solid black;
+    padding: 7% 7% 7% 6%;
+}
+.imgpart {
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgpart img {
+    width: 100%;
+    object-fit: cover;
+    height: 230px;
+    border-radius: 15px;
+}
+.heading2 {
+    display: flex;
+    margin-top: -10px;
+
+}
+.heading2 h4 {
+    margin-top: 0px;
+}
+.star {
+    color: rgb(255, 191, 0);
+    font-size: 20px;
+}
+.stars {
+    margin-left: 10%;
+}

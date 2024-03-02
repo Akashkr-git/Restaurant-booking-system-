@@ -1,0 +1,81 @@
+.Navbar {
+    /* width: 100%; */
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    position: fixed;
+    left: 9px;
+    right: 4px;
+    background-color:aqua;
+}
+.Navright {
+    display: flex;
+    /* justify-content: center; */
+    width: 50%;
+}
+.Navleft {
+    display: flex;
+    width: 50%;
+}
+#logo101 {
+    width: 70px;
+    height: 60px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+#burger101 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 12px;
+    top: 16px;
+    cursor: pointer;
+}
+#close101 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 17px;
+    top: 21px; 
+    cursor: pointer;
+}
+.burgeritem {
+    padding: 0px;
+    width: 100%;
+    position: relative;
+    top: 80px;
+    animation-name: movedownup;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+.list {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+.list li {
+    padding: 6px;
+    list-style: none;
+}
+.list li a {
+    text-decoration: none;
+    padding: 2px;
+    color: black;
+}
+.list button {
+    border: none;
+    background: none;
+    font-size: 16.5px;
+    padding: 6px;
+}
+@keyframes movedownup {
+    from {
+        height: 0px;
+    }
+    to {
+        height: 186.5px;
+    }
+}

@@ -1,0 +1,19 @@
+.adminpanel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.admintable {
+    border-collapse: collapse;
+}
+.admintable th,td {
+    border: 1px solid black;
+    padding: 8px;
+    background-color: antiquewhite;
+}
+.admintable button {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: aqua;
+}

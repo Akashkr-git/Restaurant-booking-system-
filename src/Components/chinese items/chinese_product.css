@@ -1,0 +1,129 @@
+.chinese {
+    width: 96%;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    justify-content: center;
+}
+.searchbar {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchbar input {
+    padding: 9px 25px;
+    border: 0.5px solid black;
+    border-radius: 25px;
+    position: relative;
+}
+#searchicon {
+    position: absolute;
+    right: 23%;
+    background: none;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    
+}
+.productbox { 
+    display: flex;
+    justify-content: center;
+}
+/* .chineselist {
+    margin-top: 10px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+} */
+/* .chineseitemlist {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-top: 80px; 
+} */
+.chineselist h2 {
+    margin-top: 1%;
+    margin-left: 7%;
+}
+.chinesebox img {
+    width: 97.5%;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.chinesebox {
+    width: 97%;
+    height: 360px;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgba(216, 216, 216, 0.76);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.774);
+    /* margin-bottom: 20px; */
+    text-decoration: none;
+}
+.chinesebox:hover {
+    animation-name: scaleup;
+    animation-duration: 0.3s;
+}
+#btnorder01 {
+  padding: 8px 14px;
+  background-color: aqua;
+  border-radius: 6px;
+  font-size: 15px; 
+  cursor: pointer;
+}
+#btnorder01:hover {
+    background-color: #fff;
+}
+#btnadd01 {
+    padding: 8px 14px;
+    background-color: aqua;  
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 15px; 
+}
+#btnadd01:hover {
+    background-color: #fff;
+}
+.buttons {
+    display: flex;
+    gap: 15%;
+    padding: 9px;
+    margin-top: -35px;
+    margin-left: 1%;
+}
+.chinesebox h3 {
+    font-size: 30px;
+    margin-top: -13px;
+    padding: 9px;
+    color: black;
+}
+.chinesebox h5 {
+    margin-top: -40px;
+    padding: 9px;
+    font-size: 18px;
+    color: #000;
+    margin-left: 1%;
+}
+@keyframes scaleup {
+    0%{
+        transform: scale(.9);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@media only screen and (min-width:410px) {
+    .items {
+        grid-template-columns: auto auto ;
+        gap: 15px;
+    }
+}

@@ -1,0 +1,97 @@
+.burgeritemlogin{
+  padding: 0px;
+  width: 100%;
+  position: relative;
+  top: 80px;
+  animation-name: movedown;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+.loginform {
+    /* display: none; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    width: 70%;
+    height: 300px;
+    padding: 4%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.774);
+    margin-top: 86px;
+}
+.loginbox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputfield input {
+  padding: 6px 14px;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+#input102 {
+   margin-top: 4%; 
+}
+#loginbtn {
+  padding: 6px 79px;
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color: aqua;
+  margin-top: 4%;
+  font-size: 15px;
+  font-weight: 20px;
+  cursor: pointer;
+}
+#signinbtnlink {
+  background: none;
+  border: none;
+  color: aliceblue;
+  border-bottom: 1px solid white;
+  cursor: pointer;
+}
+.inputbox {
+  margin-top: 4%;
+}
+.signupform {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    width: 75%;
+    height: 380px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.774);
+    margin-top: 90px;
+}
+.signupbox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#signupbtn {
+  padding: 6px 69px;
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color: aqua;
+  margin-top: 4%;
+  font-size: 15px;
+  font-weight: 20px;
+  cursor: pointer;
+}
+@keyframes movedown {
+  from {
+      height: 0px;
+  }
+  to {
+      height: 155.5px;
+  }
+}
+/* @keyframes popup {
+      0%{
+        transform: scale(.8);
+      }
+      100%{
+        transform: scale(1);
+      }
+} */
